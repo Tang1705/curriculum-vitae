@@ -1,0 +1,4 @@
+# User-specific files
+.DS_Store
+# 忽略指定文件夹
+.idea/
