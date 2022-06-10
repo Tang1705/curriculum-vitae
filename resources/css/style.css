@@ -103,12 +103,12 @@ a:visited {
 
 @font-face {
     font-family: "CQOWNP+Roboto-Bold";
-    src: url("../font/7d1e4bdb-0001-0000-0000-000000000000.woff") format("woff");
+    src: url("../font/roboto-v30-latin-700.woff") format("woff");
 }
 
 .stl_10 {
     font-size: 2.6567em;
-    font-family: "CQOWNP+Roboto-Bold", "Times New Roman";
+    font-family: "CQOWNP+Roboto-Bold", "Times New Roman", serif;
     color: #333333;
 }
 
