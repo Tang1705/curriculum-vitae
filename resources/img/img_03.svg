@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" preserveAspectRatio="xMinYMin meet" viewBox="0 0 793 1121"><defs><clipPath id="1"><path d="M0 841L0 -0.8900146L0 -0.8900146L595.28 -0.8900146L595.28 -0.8900146L595.28 841L595.28 841L0 841z" /></clipPath></defs><g transform="matrix(1.333333 0 0 1.333333 0 0)"><g><g clip-path="url(#1)"><g transform="matrix(0.2548113 0 0 0.2548113 119.028 241.8429)"><g transform="matrix(1 0 0 1 0 0)"><image x="0" y="0" xlink:href="img_01.png" width="1402" height="1399" /></g></g><path transform="matrix(1 0 0 -1 0 841)" d="M111.846 725.099L553.409 725.099" stroke="#5D5D5D" stroke-width="0.8966" fill="none" /><path transform="matrix(1 0 0 -1 0 841)" d="M119.809 557.125L553.409 557.125" stroke="#5D5D5D" stroke-width="0.8966" fill="none" /><path transform="matrix(1 0 0 -1 0 841)" d="M124.206 478.212L553.409 478.212" stroke="#5D5D5D" stroke-width="0.8966" fill="none" /><path transform="matrix(1 0 0 -1 0 841)" d="M79.086 128.116L553.409 128.116" stroke="#5D5D5D" stroke-width="0.8966" fill="none" /><g transform="matrix(0.1400066 0 0 0.1400066 293.796 724.1133)"><g transform="matrix(1 0 0 1 0 0)"><image x="50" y="-25" xlink:href="https://ghchart.rshah.org/Tang1705.svg" width="1800" height="400" /></g></g></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1"
+     preserveAspectRatio="xMinYMin meet" viewBox="0 0 793 1121">
+    <defs>
+        <clipPath id="1">
+            <path d="M0 841L0 -0.8900146L0 -0.8900146L595.28 -0.8900146L595.28 -0.8900146L595.28 841L595.28 841L0 841z"/>
+        </clipPath>
+    </defs>
+    <g transform="matrix(1.333333 0 0 1.333333 0 0)">
+        <g>
+            <g clip-path="url(#1)">
+                <g transform="matrix(0.2548113 0 0 0.2548113 119.028 241.8429)">
+                    <g transform="matrix(1 0 0 1 0 0)">
+                        <image x="0" y="0" xlink:href="img_01.png" width="1402" height="1399"/>
+                    </g>
+                </g>
+                <path transform="matrix(1 0 0 -1 0 841)" d="M111.846 725.099L553.409 725.099" stroke="#5D5D5D"
+                      stroke-width="0.8966" fill="none"/>
+                <path transform="matrix(1 0 0 -1 0 841)" d="M119.809 557.125L553.409 557.125" stroke="#5D5D5D"
+                      stroke-width="0.8966" fill="none"/>
+                <path transform="matrix(1 0 0 -1 0 841)" d="M124.206 478.212L553.409 478.212" stroke="#5D5D5D"
+                      stroke-width="0.8966" fill="none"/>
+                <path transform="matrix(1 0 0 -1 0 841)" d="M79.086 128.116L553.409 128.116" stroke="#5D5D5D"
+                      stroke-width="0.8966" fill="none"/>
+                <g transform="matrix(0.1400066 0 0 0.1400066 293.796 724.1133)">
+<!--                    <g transform="matrix(1 0 0 1 0 0)">-->
+<!--                        <image x="50" y="-25" xlink:href="https://ghchart.rshah.org/Tang1705.svg" width="1800"-->
+<!--                               height="400"/>-->
+<!--                    </g>-->
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
