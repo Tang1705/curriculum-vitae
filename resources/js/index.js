@@ -1,8 +1,3 @@
-/*
-Copyright 2012 Mozilla Foundation
-Copyright 2013 Lu Wang <coolwanglu@gmail.com>
-Apachine License Version 2.0
-*/
 (function () {
     function b(a, b, e, f) {
         var c = (a.className || "").split(/\s+/g);
@@ -443,4 +438,9 @@ Apachine License Version 2.0
     };
     pdf2htmlEX.Viewer = Viewer;
 })();
+
+try {
+    pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
+} catch (e) {
+}
 
