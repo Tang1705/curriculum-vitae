@@ -1,0 +1,31 @@
+{
+    "name": "Q. Tang",
+    "contact": [
+        {
+            "icon": "fas fa-phone",
+            "text": "(+86) 188-1307-5618",
+            "link": "tel:+8618813075618"
+        },
+        {
+            "icon": "fas fa-envelope",
+            "text": "qitang@bjtu.edu.cn",
+            "link": "mailto:qitang@bjtu.edu.cn"
+        },
+        {
+            "icon": "fas fa-home",
+            "text": "www.tang5618.com",
+            "link": "https://tang5618.com"
+        },
+        {
+            "icon": "fab fa-github",
+            "text": "Tang1705",
+            "link": "https://github.com/Tang1705"
+        },
+        {
+            "icon": "fas fa-graduation-cap",
+            "text": "Qi Tang",
+            "link": "https://scholar.google.com.hk/citations?user=TZQUv1MAAAAJ&hl=zh-CN&authuser=1"
+        }
+    ]
+}
+    

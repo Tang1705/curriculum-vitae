@@ -1,0 +1,508 @@
+/* 基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    /* CSS背景替代图片 */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.98)),
+    linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+    linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+    linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+    background-size: 100% 100%, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+    background-position: 0 0, 0 0, 0 10px, 10px -10px, -10px 0px;
+    padding: 2rem 0;
+}
+
+#page-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+#cv-content {
+    background-color: white;
+    padding: 4rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    /*margin-bottom: 1rem;*/
+    position: relative;
+}
+
+h1{
+    font-family: 'zapfino';
+}
+
+h2 {
+    color: rgb(220, 53, 34);
+    /*border-bottom: 2px solid #d32f2f;*/
+    padding-bottom: 0.25rem;
+    /*margin-bottom: 1.5rem;*/
+    font-size: 2rem;
+    /*text-transform: uppercase;*/
+    letter-spacing: 0.5px;
+    /*font-family: 'Times New Roman', Times, serif;*/
+}
+
+.section-header {
+    position: relative;
+    margin: 0rem 0 -0rem;
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    flex-grow: 1;
+    height: 1.5px;
+    background: linear-gradient(to right, transparent, #333, transparent);
+    /*margin: 0 1rem;*/
+}
+
+/* 个人信息样式 */
+#personal-info {
+    text-align: center;
+    /*margin-bottom: 3rem;*/
+    /*padding-bottom: 1.5rem;*/
+    /*border-bottom: 1px solid #eee;*/
+}
+
+#personal-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #222;
+    font-weight: normal;
+}
+
+.contact-info {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #d32f2f;
+}
+
+.research-interest {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #555;
+}
+
+/* 列表项样式 */
+.item {
+    margin-bottom: 1.8rem;
+    padding-left: 0.5rem;
+}
+
+.item h3 {
+    color: #222;
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.item-meta {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.item-content {
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
+/* 论文样式 */
+.publication {
+    /*margin-bottom: 1.5rem;*/
+    text-align: justify;
+}
+
+.publication-title {
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.publication-title a {
+    color: #222;
+    text-decoration: none;
+}
+
+.publication-title a:hover {
+    color: #d32f2f;
+    text-decoration: underline;
+}
+
+.publication-authors {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.2rem;
+}
+
+.publication-venue {
+    font-size: 0.9rem;
+    color: #d32f2f;
+}
+
+/* 经验列表样式 */
+.experience-points {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.experience-points li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
+/* 页脚样式 */
+#footer {
+    margin-top: 1rem;
+    text-align: center;
+    color: #999;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    #cv-content {
+        padding: 2rem 1.5rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    #personal-info h1 {
+        font-size: 2rem;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+/* 特殊标记样式 */
+.highlight {
+    font-weight: bold;
+}
+
+.first-author {
+    font-weight: bold;
+}
+
+/* 加载状态样式 */
+.loading {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.loading i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d32f2f;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 每个“教育经历”容器，用 Flex 布局实现左右分列 */
+.education-item {
+    display: flex;
+    justify-content: space-between; /* 左右内容两端对齐 */
+    align-items: flex-start; /* 垂直方向顶部对齐 */
+    margin-bottom: 10px; /* 与下一个块保持间距 */
+    width: 100%; /* 占满父容器宽度 */
+}
+
+/* 左侧内容：标题、描述等 */
+.left-content {
+    flex: 1; /* 占满左侧可用空间，可根据需求调整比例 */
+    margin-right: 20px; /* 与右侧保持间距 */
+}
+
+/* 右侧内容：学校、时间等 */
+.right-content {
+    text-align: right; /* 文字右对齐 */
+    min-width: 200px; /* 保证右侧有基础宽度，避免压缩 */
+}
+
+/* 学校名称样式（可选，比如单独颜色、字体） */
+.university {
+    color: rgb(1, 54, 144); /* 类似示例中的红色，可自定义 */
+    font-style: italic; /* 仿示例斜体 */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* 时间样式（可选） */
+.duration {
+    color: #666; /* 灰色，可自定义 */
+    font-style: italic;
+}
+
+p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* 论文项整体：Flex 布局实现左右分列 */
+.publication {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    /*padding: 10px 0;*/
+    /*border-bottom: 1px solid #eee;*/
+}
+
+/* 左侧内容：标题 + 作者 */
+.pub-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pub-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.pub-authors {
+    /*margin-top: 4px;*/
+    color: #666;
+    line-height: 1.4;
+}
+
+/* 第一作者样式 */
+.first-author {
+    color: #c0392b; /* 类似示例中的红色 */
+    font-weight: bold;
+}
+
+/* 右侧内容：类别 + 会议/年份 */
+.pub-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.pub-category {
+    font-weight: bold;
+    /*margin-bottom: 4px;*/
+    /* 根据类别动态设置颜色，示例： */
+}
+
+/* CCF 分类颜色示例 */
+.pub-category.ccf-a {
+    color: #e74c3c;
+}
+
+.pub-category.ccf-b {
+    color: #3498db;
+}
+
+.pub-category.ccf-t1 {
+    color: #e74c3c;
+}
+
+.pub-category.ccf-c {
+    color: #2ecc71;
+}
+
+.pub-category.arxiv {
+    color: #9b59b6;
+}
+
+.pub-venue-year {
+    color: #999;
+    font-style: italic;
+}
+
+/* 代码链接（可选） */
+.pub-code {
+    margin-top: 4px;
+    color: #007bff;
+    text-align: right;
+}
+
+.experience-item {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* 上部分布局保持不变 */
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.upper-left {
+    flex: 0 0 60%;
+}
+
+.upper-right {
+    flex: 0 0 40%;
+    text-align: right;
+}
+
+/* 下部分要点样式（核心修改） */
+.lower-section {
+    margin-top: 5px;
+    /* 限制最大宽度，确保所有要点在同一宽度内 */
+    max-width: 100%; /* 可根据页面宽度调整 */
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.project-details {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.project-details li {
+    /* 两端对齐核心属性 */
+    text-align: justify;
+    /* 固定行高，使视觉上长度更统一 */
+    line-height: 1.4;
+    /* 控制每行字数，过长自动换行 */
+    max-width: 100%; /* 可根据内容长度调整 */
+    /*margin-bottom: 12px;*/
+    /* 解决最后一行无法对齐的问题 */
+    text-justify: inter-word; /* 英文单词间均匀分布 */
+    /*text-align-last: justify; !* 最后一行也两端对齐 *!*/
+}
+
+.institution {
+    color: #666;
+    margin-bottom: 0;
+}
+
+.project-type {
+    color: rgb(220, 53, 34);
+    font-style: italic;
+    /*font-weight: bold;*/
+    /*margin-bottom: 5px;*/
+}
+
+.participant-role {
+    color: #666;
+    margin-bottom: 0;
+}
+
+
+/* 奖项列表容器样式 */
+.awards-section {
+    width: 100%;
+}
+
+/* 每个奖项项的样式，设置为flex布局实现左右分栏 */
+.award-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* 左侧奖项名称及描述样式 */
+.award-left {
+    font-weight: bold;
+    /* 让左侧内容尽可能填充空间，同时文本两端对齐（可选，若需要更整齐的排版） */
+    text-align: justify;
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* 右侧时间样式 */
+.award-right {
+    color: #666;
+    /* 可根据需求调整字体样式等 */
+    font-style: italic;
+}
+
+/* 技能列表容器样式 */
+.skills-container {
+    width: 100%;
+}
+
+/* 每个技能项的样式，设置为flex布局实现左右分栏 */
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* 左侧标题样式 */
+.skill-title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 141px; /* 可根据需求调整宽度，让标题栏更整齐 */
+    margin-right: 10px;
+    text-align: right; /* 让标题文字右对齐 */
+}
+
+/* 右侧内容样式 */
+.skill-content {
+    flex: 1;
+}
+
+.mathjax-content {
+    font-size: 18px;
+    color: #333;
+}

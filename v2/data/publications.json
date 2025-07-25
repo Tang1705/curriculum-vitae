@@ -1,0 +1,275 @@
+[
+  {
+    "title": "A Review of Video Super-Resolution Algorithms based on Deep Learning",
+    "category": "CCF-T1",
+    "venue": "AAS",
+    "year": 2025,
+    "authors": [
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Meiqin Liu*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Chao Yao",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c240235"
+  },
+  {
+    "title": "MambaVSR: Content-Aware Scanning State Space Model for Video Super-Resolution",
+    "category": "arXiv",
+    "venue": "arXiv",
+    "year": 2025,
+    "authors": [
+      {
+        "name": "Linfeng He",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Meiqin Liu*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Chao Yao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://arxiv.org/pdf/2506.11768"
+  },
+  {
+    "title": "SeeClear: Semantic Distillation Enhances Pixel Condensation for Video Super-Resolution",
+    "category": "CCF-A",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "authors": [
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Meiqin Liu*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Chao Yao*",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/f358b2a880adf34939d2d6f926e54d2a-Abstract-Conference.html"
+  },
+  {
+    "title": "Semantic Lens: Instance-Centric Semantic Alignment for Video Super-Resolution",
+    "category": "CCF-A",
+    "venue": "AAAI",
+    "year": 2024,
+    "authors": [
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Meiqin Liu*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Jian Jin",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Chao Yao*",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28321"
+  },
+  {
+    "title": "DATA-VSR: Dynamic Trajectory Attention and Texture Adaptive Rooter for Video Super-Resolution",
+    "category": "CCF-B",
+    "venue": "ICASSP",
+    "year": 2025,
+    "authors": [
+      {
+        "name": "Linfeng He",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Meiqin Liu*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Chao Yao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://ieeexplore.ieee.org/abstract/document/10890509"
+  },
+  {
+    "title": "ALIC: Adaptive Fusion Entropy Model for Learned Image Compression",
+    "category": "CCF-B",
+    "venue": "ICASSP",
+    "year": 2025,
+    "authors": [
+      {
+        "name": "Lingxue Li",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Meiqin Liu*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Yifan Zhang",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Chao Yao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://ieeexplore.ieee.org/abstract/document/10887975"
+  },
+  {
+    "title": "Noisy-Residual Continuous Diffusion Models for Real Image Denoising <span style='color:gray'>(Oral)</span>",
+    "category": "CCF-B",
+    "venue": "ICME",
+    "year": 2024,
+    "authors": [
+      {
+        "name": "Xuan Long",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Meiqin Liu*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Chao Yao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Jian Jin",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://ieeexplore.ieee.org/document/10687524"
+  },
+  {
+    "title": "TLVC: Temporal Bit-Rate Allocation for Learned Video Compression <span style='color:gray'>(Oral)</span>",
+    "category": "CCF-B",
+    "venue": "ICME",
+    "year": 2024,
+    "authors": [
+      {
+        "name": "Yifan Zhang",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Meiqin Liu*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Chenming Xu",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Chao Yao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://ieeexplore.ieee.org/document/10688317"
+  },
+  {
+    "title": "BridgeNet: A Joint Learning Network of Depth Map Super-Resolution and Monocular Depth Estimation",
+    "category": "CCF-A",
+    "venue": "ACM MM",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Runmin Cong*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Ronghui Sheng",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Lingzhi He",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Dan Zhang",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Sam Kwong",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3474085.3475373"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "title": "Education",
+  "items": [
+    {
+      "degree": "Information & Communication Engineering (State Key Disciplines of First-class)",
+      "institution": "Beijing Jiaotong University",
+      "details": "Advised by Prof. Yao Zhao (IEEE Fellow). Research interest lies in Image/Video Restoration, Segmentation and Generation.",
+      "period": "Sept. 2022 -- Present"
+    },
+    {
+      "degree": "Software Engineering | Finance (Dual Degree)",
+      "institution": "Beijing Jiaotong University",
+      "details": "B.Eng. | B.Ec. (with honors)",
+      "period": "Sept. 2017 -- Jun. 2021"
+    }
+  ]
+}

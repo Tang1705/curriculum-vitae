@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Towards Human-Machine Friendly Learning-Based Video Coding",
+    "organization": "Beijing Key Laboratory of Advanced Information Science and Network Technology",
+    "fund": "International (Regional) Cooperation & Exchanges of NSFC",
+    "description": "Participator",
+    "points": [
+      "Devised semantic-controlled VSR that combines patch-level blurring and residual shift in diffusion process and determines conditions by the instance-centric and channel-wise semantics within and across clips during generation, enhancing content realism and temporal coherence.",
+      "Proposed semantic-guided inter-frame alignment that decouples video into instance, event and scene and conducts semantic-guided instance-centric alignment among adjacent frames, gaining better performance when facing with large motion amplitude and background change.",
+      "Designed motion-driven temporal gate and texture-condition spatial gate based on the characteristic of residual coding, balancing the bit allocation within video compression along the temporal axis."
+    ]
+  },
+  {
+    "title": "Enhancement and Cognition of Video Content in Complex Scenes",
+    "organization": "Visual Intelligence + X International Cooperation Joint Laboratory of MOE",
+    "fund": "National Natural Science Foundation of China",
+    "description": "Participator",
+    "points": [
+      "Exploring the inherent capability of Multi-Modal Large Model to perceive semantic information and degradation for the sake of dealing with complex and unknown deterioration of video captured in real world via LoRA, etc."
+    ]
+  },
+  {
+    "title": "High-Speed Railway Wheel-Rail Dynamic Contact Posture<br> InspectionSystem Based on High-Precision Structured Light",
+    "organization": "Beijing Key Lab of Traffic Data Analysis and Mining",
+    "fund": "National Major Scientific Instruments and<br> Equipments Development Project of NSFC",
+    "description": "Participator",
+    "points": [
+      "Implementing visualization and editing platform for dense point cloud that focuses on 3D reconstruction of wheel-rail posture of high-speed railway via coded structured light in the single-shot manner."
+    ]
+  }
+]
+    

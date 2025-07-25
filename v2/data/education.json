@@ -1,0 +1,23 @@
+[
+    {
+        "degree": "Ph.D. student",
+        "major": "Computer Science & Technology",
+        "institution": "Nanjing University",
+        "period": "Sep. 2025 - Present",
+        "description": "Advised by Assoc. Prof. Jie Tang. Research interest lies in Image/Video Restoration, Segmentation and Generation."
+    },
+    {
+        "degree": "M.Sc. (with honors)",
+        "major": "Information & Communication Engineering (State Key Disciplines of First-class)",
+        "institution": "Beijing Jiaotong University",
+        "period": "Sep. 2022 - Jun. 2025",
+        "description": "Advised by Prof. Yao Zhao (IEEE Fellow)."
+    },
+    {
+        "degree": "B.Eng. | B.Ec. (with honors)",
+        "major": "Software Engineering | Finance (Dual Degree)",
+        "institution": "Beijing Jiaotong University",
+        "period": "Sep. 2017 - Jun. 2021",
+        "description": ""
+    }
+]

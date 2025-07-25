@@ -1,0 +1,41 @@
+{
+  "title": "Publications",
+  "items": [
+    {
+      "title": "SeeClear: Semantic Distillation Enhances Pixel Condensation for Video Super-Resolution",
+      "category": "CCF-A",
+      "authors": "Qi Tang, Yao Zhao, Meiqin Liu*, and Chao Yao*",
+      "conference": "NeurIPS 2024"
+    },
+    {
+      "title": "Semantic Lens: Instance-Centric Semantic Alignment for Video Super-Resolution",
+      "category": "CCF-A",
+      "authors": "Qi Tang, Yao Zhao, Meiqin Liu*, Jian Jin, and Chao Yao*",
+      "conference": "AAAI 2024"
+    },
+    {
+      "title": "A Review of Video Super-Resolution Algorithms Based on Deep Learning",
+      "category": "CCF-A",
+      "authors": "Qi Tang, Yao Zhao, Meiqin Liu*, and Chao Yao",
+      "conference": "AAS 2024"
+    },
+    {
+      "title": "BridgeNet: A Joint Learning Network of Depth Map Super-Resolution and Monocular Depth Estimation",
+      "category": "CCF-A",
+      "authors": "Qi Tang, Runmin Cong*, Ronghui Sheng, Lingzhi He, Dan Zhang, Yao Zhao, and Sam Kwong",
+      "conference": "ACM MM 2021"
+    },
+    {
+      "title": "Noisy-Residual Continuous Diffusion Models for Real Image Denoising (Oral)",
+      "category": "CCF-B",
+      "authors": "Xuan Long, Meiqin Liu*, Qi Tang, Chao Yao, Jian Jin, and Yao Zhao",
+      "conference": "ICME 2024"
+    },
+    {
+      "title": "TLVC: Temporal Bit-rate Allocation for Learned Video Compression (Oral)",
+      "category": "CCF-B",
+      "authors": "Yifan Zhang, Meiqin Liu*, Chenming Xu, Qi Tang, Chao Yao, and Yao Zhao",
+      "conference": "ICME 2024"
+    }
+  ]
+}
