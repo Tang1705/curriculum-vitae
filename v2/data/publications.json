@@ -25,35 +25,6 @@
     "url": "http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c240235"
   },
   {
-    "title": "MambaVSR: Content-Aware Scanning State Space Model for Video Super-Resolution",
-    "category": "arXiv",
-    "venue": "arXiv",
-    "year": 2025,
-    "authors": [
-      {
-        "name": "Linfeng He",
-        "isFirstAuthor": false
-      },
-      {
-        "name": "Meiqin Liu*",
-        "isFirstAuthor": false
-      },
-      {
-        "name": "Qi Tang",
-        "isFirstAuthor": true
-      },
-      {
-        "name": "Chao Yao",
-        "isFirstAuthor": false
-      },
-      {
-        "name": "Yao Zhao",
-        "isFirstAuthor": false
-      }
-    ],
-    "url": "https://arxiv.org/pdf/2506.11768"
-  },
-  {
     "title": "SeeClear: Semantic Distillation Enhances Pixel Condensation for Video Super-Resolution",
     "category": "CCF-A",
     "venue": "NeurIPS",
@@ -106,6 +77,72 @@
       }
     ],
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28321"
+  },
+  {
+    "title": "BridgeNet: A Joint Learning Network of Depth Map Super-Resolution and Monocular Depth Estimation",
+    "category": "CCF-A",
+    "venue": "ACM MM",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Runmin Cong*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Ronghui Sheng",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Lingzhi He",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Dan Zhang",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Sam Kwong",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3474085.3475373"
+  },
+  {
+    "title": "MambaVSR: Content-Aware Scanning State Space Model for Video Super-Resolution",
+    "category": "arXiv",
+    "venue": "arXiv",
+    "year": 2025,
+    "authors": [
+      {
+        "name": "Linfeng He",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Meiqin Liu*",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Qi Tang",
+        "isFirstAuthor": true
+      },
+      {
+        "name": "Chao Yao",
+        "isFirstAuthor": false
+      },
+      {
+        "name": "Yao Zhao",
+        "isFirstAuthor": false
+      }
+    ],
+    "url": "https://arxiv.org/pdf/2506.11768"
   },
   {
     "title": "DATA-VSR: Dynamic Trajectory Attention and Texture Adaptive Rooter for Video Super-Resolution",
@@ -234,42 +271,5 @@
       }
     ],
     "url": "https://ieeexplore.ieee.org/document/10688317"
-  },
-  {
-    "title": "BridgeNet: A Joint Learning Network of Depth Map Super-Resolution and Monocular Depth Estimation",
-    "category": "CCF-A",
-    "venue": "ACM MM",
-    "year": 2021,
-    "authors": [
-      {
-        "name": "Qi Tang",
-        "isFirstAuthor": true
-      },
-      {
-        "name": "Runmin Cong*",
-        "isFirstAuthor": false
-      },
-      {
-        "name": "Ronghui Sheng",
-        "isFirstAuthor": false
-      },
-      {
-        "name": "Lingzhi He",
-        "isFirstAuthor": false
-      },
-      {
-        "name": "Dan Zhang",
-        "isFirstAuthor": false
-      },
-      {
-        "name": "Yao Zhao",
-        "isFirstAuthor": false
-      },
-      {
-        "name": "Sam Kwong",
-        "isFirstAuthor": false
-      }
-    ],
-    "url": "https://dl.acm.org/doi/pdf/10.1145/3474085.3475373"
   }
 ]
