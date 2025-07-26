@@ -506,3 +506,148 @@ p {
     font-size: 18px;
     color: #333;
 }
+
+/* 响应式调整：针对手机等小屏幕（768px以下）优化 */
+@media (max-width: 768px) {
+    /* 1. 整体容器内边距进一步减小，避免内容拥挤 */
+    #cv-content {
+        padding: 1.5rem 1rem; /* 比原2rem 1.5rem更小，适配窄屏 */
+    }
+
+    /* 2. 个人信息：调整联系方式间距 */
+    .contact-info {
+        gap: 0.5rem; /* 比原0.3rem稍大，避免太挤 */
+    }
+
+    /* 3. 标题字体缩小，减少空间占用 */
+    h2 {
+        font-size: 1.2rem; /* 比原1.3rem更小 */
+    }
+
+    #personal-info h1 {
+        font-size: 1.8rem; /* 比原2rem更小 */
+    }
+
+    /* 4. 教育经历：从左右分栏改为上下堆叠 */
+    .education-item {
+        flex-direction: column; /* 垂直排列 */
+    }
+    .left-content {
+        margin-right: 0; /* 取消右侧间距 */
+        margin-bottom: 0.5rem; /* 与下方内容保持间距 */
+    }
+    .right-content {
+        text-align: left; /* 左对齐，与左侧内容一致 */
+        min-width: auto; /* 取消固定最小宽度，适应屏幕 */
+    }
+
+    /* 5. 论文：从左右分栏改为上下堆叠 */
+    .publication {
+        flex-direction: column; /* 垂直排列 */
+    }
+    .pub-right {
+        align-items: flex-start; /* 左对齐 */
+        margin-top: 0.3rem; /* 与上方内容保持间距 */
+    }
+
+    /* 6. 项目经验：上下布局优化 */
+    .upper-section {
+        flex-direction: column; /* 垂直排列 */
+    }
+    .upper-left, .upper-right {
+        flex: none; /* 取消固定比例 */
+        width: 100%; /* 占满宽度 */
+    }
+    .upper-right {
+        text-align: left; /* 左对齐 */
+        margin-top: 0.3rem; /* 与上方内容保持间距 */
+    }
+    .project-details {
+        margin-left: 15px; /* 减小左侧缩进，避免超出屏幕 */
+    }
+
+    /* 7. 奖项：从左右分栏改为上下堆叠 */
+    .award-item {
+        flex-direction: column; /* 垂直排列 */
+        align-items: flex-start; /* 左对齐 */
+    }
+    .award-right {
+        margin-top: 0.2rem; /* 与上方内容保持间距 */
+    }
+
+    /* 8. 技能：从左右分栏改为上下堆叠 */
+    .skill-item {
+        flex-direction: column; /* 垂直排列 */
+        align-items: flex-start; /* 左对齐 */
+    }
+    .skill-title {
+        width: auto; /* 取消固定宽度 */
+        text-align: left; /* 左对齐 */
+        margin-right: 0; /* 取消右侧间距 */
+        margin-bottom: 0.3rem; /* 与下方内容保持间距 */
+    }
+
+    /* 9. 通用文本大小调整，确保小屏幕易读 */
+    .item-content,
+    .publication-authors,
+    .publication-venue,
+    .experience-points li,
+    .project-details li {
+        font-size: 0.9rem; /* 比原0.95rem稍小 */
+    }
+}
+
+/* 针对超小屏幕（如iPhone SE等，480px以下）进一步优化 */
+@media (max-width: 480px) {
+    #cv-content {
+        padding: 1rem 0.8rem; /* 进一步减小内边距 */
+    }
+
+    h2 {
+        font-size: 1.1rem; /* 标题再缩小 */
+    }
+
+    #personal-info h1 {
+        font-size: 1.6rem; /* 姓名再缩小 */
+    }
+
+    /* 减小各区块间距，避免内容过长 */
+    .section {
+        margin-bottom: 1.5rem;
+    }
+
+    .item, .publication, .award-item {
+        margin-bottom: 1rem;
+    }
+}
+
+/* 联系方式样式调整 */
+.contact-info {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 0.95rem;
+}
+
+/* 在联系方式之间添加竖线分隔符（大屏幕） */
+.contact-item:not(:last-child)::after {
+    content: "|";
+    margin-left: 1.5rem;
+    color: #999; /* 淡灰色，不那么显眼 */
+}
+
+/* 响应式调整：小屏幕隐藏竖线分隔符 */
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem; /* 垂直方向的间距 */
+    }
+
+    /* 小屏幕下取消竖线 */
+    .contact-item:not(:last-child)::after {
+        content: none; /* 移除竖线 */
+    }
+}

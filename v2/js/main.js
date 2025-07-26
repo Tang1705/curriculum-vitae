@@ -21,10 +21,9 @@ function renderPersonalInfo(data) {
                 <h1>${data.name}</h1>
                 <div class="contact-info">
                     ${data.contact.map(item => `
-                        <a href="${item.link}"><i class="${item.icon}"></i> ${item.text}</a>
-                    `).join('|')}
+                        <a href="${item.link}" class="contact-item"><i class="${item.icon}"></i> ${item.text}</a>
+                    `).join('')}
                 </div>
-<!--                <p class="research-interest"><strong>Research Interest:</strong> ${data.researchInterest}</p>-->
             `;
     container.style.display = 'block';
 }
