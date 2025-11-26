@@ -2,11 +2,6 @@
     "name": "Q. Tang",
     "contact": [
         {
-            "icon": "fas fa-phone",
-            "text": "(+86) 188-1307-5618",
-            "link": "tel:+8618813075618"
-        },
-        {
             "icon": "fas fa-envelope",
             "text": "qitang@bjtu.edu.cn",
             "link": "mailto:qitang@bjtu.edu.cn"
